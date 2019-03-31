@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ArticlesViewController.h
 //  NYTimesTest
 //
 //  Created by Ahmed Elashker on 3/31/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface ArticlesViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

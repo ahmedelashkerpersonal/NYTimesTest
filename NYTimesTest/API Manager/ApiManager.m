@@ -43,6 +43,8 @@
     RKObjectRequestOperation *objectRequestOperation = [[RKObjectRequestOperation alloc] initWithRequest:request responseDescriptors:@[ responseDescriptor ]];
     [objectRequestOperation setCompletionBlockWithSuccess:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
         RKLogInfo(@"Load collection of Articles: %@", mappingResult.array);
+        
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"gotMostPopArticles" object:nil userInfo:@{@"articles": mappingResult.array}];
     } failure:^(RKObjectRequestOperation *operation, NSError *error) {
         RKLogError(@"Operation failed with error: %@", error);
     }];

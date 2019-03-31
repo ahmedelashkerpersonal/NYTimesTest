@@ -7,6 +7,7 @@ target 'NYTimesTest' do
 
   # Pods for NYTimesTest
   pod 'RestKit', '~> 0.24.0'
+  pod 'SDWebImage', '~> 4.0'
 
   target 'NYTimesTestTests' do
     inherit! :search_paths

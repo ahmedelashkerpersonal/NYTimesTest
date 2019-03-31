@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A819253BF89DDDBB7994426F /* libPods-NYTimesTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB59A822221B011AF0466500 /* libPods-NYTimesTest.a */; };
 		E15C9F8C22510EC800835B53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E15C9F8B22510EC800835B53 /* AppDelegate.m */; };
-		E15C9F8F22510EC800835B53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15C9F8E22510EC800835B53 /* ViewController.m */; };
 		E15C9F9222510EC800835B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C9F9022510EC800835B53 /* Main.storyboard */; };
 		E15C9F9422510ED000835B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C9F9322510ED000835B53 /* Assets.xcassets */; };
 		E15C9F9722510ED000835B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C9F9522510ED000835B53 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,9 @@
 		E15C9FA422510ED000835B53 /* NYTimesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E15C9FA322510ED000835B53 /* NYTimesTestTests.m */; };
 		E1F63CE22251139500659770 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F63CE12251139500659770 /* Article.m */; };
 		E1F63CE6225116B600659770 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F63CE5225116B600659770 /* ApiManager.m */; };
+		E1F63CEE22513C7000659770 /* ArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F63CED22513C7000659770 /* ArticlesViewController.m */; };
+		E1F63CF122513D6000659770 /* ArticleDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F63CF022513D6000659770 /* ArticleDetailsViewController.m */; };
+		E1F63CF522513F2F00659770 /* NYMostPopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F63CF422513F2F00659770 /* NYMostPopCell.m */; };
 		FC153B0D552B41F8A0526813 /* libPods-NYTimesTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA9F936ADF985CEF05458ED /* libPods-NYTimesTestTests.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +42,6 @@
 		E15C9F8722510EC800835B53 /* NYTimesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15C9F8A22510EC800835B53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E15C9F8B22510EC800835B53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E15C9F8D22510EC800835B53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E15C9F8E22510EC800835B53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E15C9F9122510EC800835B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E15C9F9322510ED000835B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15C9F9622510ED000835B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,12 @@
 		E1F63CE12251139500659770 /* Article.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 		E1F63CE4225116B600659770 /* ApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
 		E1F63CE5225116B600659770 /* ApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		E1F63CEC22513C7000659770 /* ArticlesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticlesViewController.h; sourceTree = "<group>"; };
+		E1F63CED22513C7000659770 /* ArticlesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticlesViewController.m; sourceTree = "<group>"; };
+		E1F63CEF22513D6000659770 /* ArticleDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleDetailsViewController.h; sourceTree = "<group>"; };
+		E1F63CF022513D6000659770 /* ArticleDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleDetailsViewController.m; sourceTree = "<group>"; };
+		E1F63CF322513F2F00659770 /* NYMostPopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYMostPopCell.h; sourceTree = "<group>"; };
+		E1F63CF422513F2F00659770 /* NYMostPopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYMostPopCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +157,10 @@
 		E1F63CE7225116BD00659770 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E15C9F8D22510EC800835B53 /* ViewController.h */,
-				E15C9F8E22510EC800835B53 /* ViewController.m */,
+				E1F63CEC22513C7000659770 /* ArticlesViewController.h */,
+				E1F63CED22513C7000659770 /* ArticlesViewController.m */,
+				E1F63CEF22513D6000659770 /* ArticleDetailsViewController.h */,
+				E1F63CF022513D6000659770 /* ArticleDetailsViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -160,10 +168,20 @@
 		E1F63CE8225116DF00659770 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E1F63CF222513F0100659770 /* Cells */,
 				E15C9F9522510ED000835B53 /* LaunchScreen.storyboard */,
 				E15C9F9022510EC800835B53 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E1F63CF222513F0100659770 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1F63CF322513F2F00659770 /* NYMostPopCell.h */,
+				E1F63CF422513F2F00659770 /* NYMostPopCell.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		E25CDD911E7E9D882C62577F /* Pods */ = {
@@ -319,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1F63CE6225116B600659770 /* ApiManager.m in Sources */,
+				E1F63CEE22513C7000659770 /* ArticlesViewController.m in Sources */,
+				E1F63CF122513D6000659770 /* ArticleDetailsViewController.m in Sources */,
+				E1F63CF522513F2F00659770 /* NYMostPopCell.m in Sources */,
 				E1F63CE22251139500659770 /* Article.m in Sources */,
-				E15C9F8F22510EC800835B53 /* ViewController.m in Sources */,
 				E15C9F9A22510ED000835B53 /* main.m in Sources */,
 				E15C9F8C22510EC800835B53 /* AppDelegate.m in Sources */,
 			);
